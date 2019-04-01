@@ -36,7 +36,6 @@ function createGraph(entry){
       queue.push(child);
     })
   }
-  console.log(queue);
   return queue;
 }
 
